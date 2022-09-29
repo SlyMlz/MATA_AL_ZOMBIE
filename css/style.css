@@ -1,0 +1,182 @@
+.cont{ width: 500px; background: rgb(91, 185, 104); overflow: hidden; }
+.cont .items{ float: left; width: 33.333%; position: relative; cursor: pointer; }
+.cont .items .puntero{ background: url(../img/puntero.png) no-repeat; background-position: bottom center; width:  100%; height: 100px; position: relative; z-index: 10;  }
+.cont .items .zombie { position: absolute; left: 40px; bottom: 20px; width: 81px; height: 0px;  background: url(../img/zombie.png) no-repeat; background-position: top center; transition: all .5s; }
+.cont .items.active .zombie{ height: 69px; }
+
+  #resizable { width: 150px; height: 100px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+  #draggable { width: 50px; height: 150px; padding: 0.4em; }
+
+  .toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+  .toggler { width: 500px; height: 200px; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+  .toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+  .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+  body{
+    align: rigth;
+    heigh:700px;
+    background-color:#E0F8F7;
+    background-image: url(../img/f1.jpg);
+    background-repeat: repeat-y;
+    background-size: 10rem;  
+    background-position: 1200px 1em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1{
+      font-family: 'Pacifico', sans-serif;
+  }
+  
+   #menu a, button{
+       font-size: 20px !important;
+       font-weight: 600; 
+   }
+  
+   #menu a{
+       color:#17202A;  
+   }
+  
+  .carousel-inner {
+      max-height:39rem !important;
+  }
+  
+  #img-equipo{
+      max-height:30rem !important;
+      width:50%;
+  }
+  
+  #local {
+      margin-top:50px;
+      display:flex;
+      justify-content: center; 
+      padding-bottom: 100px; 
+  }
+  
+  .mapa {
+      background: url(../img/mapa.png);
+      width:100%;
+      height:500px;
+  }
+  
+  .wrapper-local {
+      width:50%;
+      margin-left:100px;
+      padding-top:150px;
+  }
+  
+  #numeros-local{
+      margin:0 !important;
+      padding:0 !important;
+  }
+  #numeros-local div {
+      padding: 0 20px 0 0;   
+      text-align:left;
+      height:48px;
+  }
+  
+  #numeros-local div:not(:last-child) {
+      border-right: 2px solid #3f3f3f;
+    }
+  #numeros-local div:not(:first-child) {
+      padding-left:20px;
+    }
+  
+  #numeros-local p{
+      margin:0;
+  }
+  
+  #bg-contactos{
+      position:relative;
+      top: -130px;
+  } 
+  
+   #seccion-contacto{
+      background-color: #5499C7;
+      min-height:500px;
+      position:relative;
+  }
+  
+  #contenedor-formulario{
+      position:absolute;
+      top:30%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      background: #F4ECF7;
+      border-radius:5px;   
+  }
+  
+  #titulo-formulario {
+      color: #3f3f3f;
+  }
+  
+  footer {
+      background: black;
+      min-height: 100px;;
+  }
+  footer p{
+      color:#FDFEFE ;
+      text-align:center;
+  }
+  #iconos  i {
+      font-size: 40px;
+      padding: 0 8px;
+      color:#FDFEFE;
+  }
+  
+  @media (max-width:768px) {
+      #intro, #equipo{
+          width:90% !important;
+          margin:auto;
+      }
+      #img-equipo{
+          max-height:20rem !important;
+          width:90%;
+      }
+      .wrapper-local {
+          width:90%;
+          margin:auto;
+          padding-top:50px;    
+      }
+      #local {
+          flex-wrap: wrap;
+      }
+      .mapa img {
+          width:100%;
+          height:auto;
+      }
+      #bg-contactos{
+          top: -120px;
+      }
+  }
+  
+  @media (max-width:1200px){
+      #intro, #equipo {
+          width:90% !important;
+          margin:auto;
+      }
+      #local {
+          flex-wrap: wrap;
+          padding-top:30px;
+     }
+     .wrapper-local {
+      width:90%;
+      margin:auto;
+      padding-top:50px;    
+     }
+  }
+  
+  
+  
